@@ -1,0 +1,60 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+  }
+  .logo-img { 
+    display: inline-block;
+    width: 150px; /* Adjust the width as needed */
+    max-width: 100%;  
+    height: auto;  
+    margin-right: 10px; 
+    vertical-align: middle; /* Align vertically with the text */
+  }
+  
+  .subject-line {
+    display: inline-block;
+    vertical-align: middle; /* Align vertically with the logo */
+    margin-bottom: 10px;  /* Add some space below the subject */
+  } 
+  
+  .header h1 {
+    display: inline-block; /* Make the h1 behave like an inline element */
+    font-style: bold;
+  } 
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .body {
+    line-height: 1.5;
+    font-family: Georgia; 
+  }
+  .order-details {
+    margin-top: 20px;
+  }
+  .order-details > table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .order-details {
+    margin-top: 20px;
+    width: 100%;  /* Set table width to 100% of the parent container */
+    border-collapse: collapse; /* Remove borders between table cells */
+  }
+  .order-details th,
+  .order-details td {
+    padding: 10px; /* Adjust padding as needed */
+    border: none; /* Remove table cell borders */
+    text-align: left; /* Align table cell content to the left */
+    border: 2px solid black;
+  }
+  .footer {
+    text-align: left; /* Align text in the footer to the left */
+    margin-top: 20px; 
+  }
